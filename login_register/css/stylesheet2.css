@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+  padding-top: 110px;
+  text-align: center;
+  background-color: white;
+  font-family: inter;
+}
+
+h1 {
+  color: black;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 44px;
+  text-align: center;
+}
+
+input {
+  font-family: Poppins;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  width: 220px;
+  height: 30px;
+  background-color: #f4f4f4;
+}
+
+button {
+  background-color: #f4f4f4;
+  color: rgb(0, 0, 0);
+  padding: 12px 0px;
+  margin-bottom: 14px;
+  border: none;
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 10%;
+  font-family: "inter";
+}
+
+button:hover {
+  background-color: #b6b0a3;
+  color: black;
+}
+
+button:active {
+  background-color: #8d897e;
+  box-shadow: 0 2px #8d897e;
+  transform: translateY(2px);
+}
+.input-radio {
+  width: 15px;
+  height: 15px;
+}
+
+.radio-box {
+  margin: 15px 0;
+}

@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* TEMPLATE TEMPLATE TEMPLATE TEMPLATE TEMPLATE TEMPLATE TEMPLATE TEMPLATE TEMPLATE TEMPLATE TEMPLATE TEMPLATE TEMPLATE TEMPLATE*/
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: 'Inter', sans-serif;
+}
+
+
+h1{
+    font-size: 32px;
+}
+
+
+h2 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.newassgform {
+    padding: 25px;
+    padding-bottom: 45px;
+    height: 180px;
+    background-color: #F4F4F4;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    border-radius: 15px;
+}
+
+.newassgform form {
+    margin-top: 1%;
+}
+
+.newassg {
+    padding: 25px;
+    height: 70px;
+    background-color: #F4F4F4;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.description {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1.6%;
+}
+
+.description p {
+    margin-top: 0%;
+}
+
+.field {
+    width: 250px; 
+    height: 26px;
+    border: none;
+    border-radius: 6px;
+}
+
+.test-type {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.test-type p {
+    margin-top: 0%;
+}
+
+.assg-questions {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+}
+
+.assg-questions h2 {
+    background-color: rgb(17, 17, 17);
+    color: #F4F4F4;
+    padding: 8px;
+    width: 270px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+.mc-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.multiple-choice {
+    width: 94%;
+    height: 100px;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-bottom: 2%;
+}
+
+.answers {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 2%;
+}
+
+.multiple-choice-questions {
+    width: 80%;
+}
+
+.newassg th {
+    text-align: left;
+}
+
+.desc {
+    vertical-align: top;
+}
+
+.create-assg {
+    margin-top: 20px;
+    border: none;
+    padding: 10px;
+    font-family: inherit;
+    border-radius: 12px;
+    background-color: chartreuse;
+    width: 180px;
+}
+
+.create-assg:hover {
+    background-color: rgb(112, 224, 0);
+}
+
+.create-assg:active {
+    background-color: rgb(96, 192, 0);
+}
+
+
+.btn-white {
+    margin-top: 20px;
+    border: none;
+    padding: 10px;
+    font-family: inherit;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.btn-white:hover {
+    transition: 0.2s;
+    background-color: rgb(184, 184, 184);
+}
+
+.btn-white:active {
+    background-color: rgb(184, 184, 184);
+}
+
+@media (max-width: 700px){
+    .answers{
+        display: block;
+    }
+
+    .field{
+        width: 150px;
+    }
+}

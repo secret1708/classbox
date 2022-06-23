@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* TEMPLATE TEMPLATE TEMPLATE TEMPLATE TEMPLATE TEMPLATE TEMPLATE TEMPLATE TEMPLATE TEMPLATE TEMPLATE TEMPLATE TEMPLATE TEMPLATE*/
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 32px;
+    margin-bottom: 5%;
+}
+
+.currentpage {
+    margin-right: auto;
+}
+
+.navbutton {
+    text-align: center;
+    padding: 0 35px;
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+.navbutton:hover {
+    color: rgb(129, 129, 129);
+}
+
+.logout {
+    color: white;
+    background-color: black;
+    height: 32px;
+    margin-left: 30px;
+}
+
+h1{
+    font-size: 32px;
+}
+
+/* CONTENTS CONTENTS CONTENTS CONTENTS CONTENTS CONTENTS CONTENTS CONTENTS CONTENTS CONTENTS CONTENTS CONTENTS CONTENTS CONTENTS */
+
+/* .listcontainer {
+    justify-content: center;        
+}
+
+.studentlist {
+    display: flex;
+    height: 80%;
+    justify-content: space-between;
+}
+
+.right {
+    float: right;
+}
+ */
+
